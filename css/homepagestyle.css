@@ -1,0 +1,134 @@
+h1 {
+font-family: Forte;
+font-size: 70px;
+color: #7C5295;
+text-align: center;
+padding-left: 30px;
+border: 3px solid none;
+padding: 25px;
+margin: 50px;
+background-color: #FFEEFF; }
+
+#links {
+padding: 30px;
+font-size: 15px;
+border: 10px solid #AC74E1;
+background-color: #FFEEFF;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 70px;
+margin-top: 80px}
+
+body{ 
+font-family: Arial;
+font-size: 20px;
+color: #7C5295;
+background-color: #BCA0DE;
+}
+
+#desc {
+padding-left: 30px;
+padding-right: 60px;
+border: 10px solid #AC74E1;
+background-color: #FFEEFF;
+margin: 30px;}
+
+#conccamp {
+float: right;}
+
+#what {
+margin: 30px;
+padding-left: 30px;
+padding-right: 60px;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: justify;
+border: 10px solid #AC74E1;
+background-color: #FFEEFF}
+
+img {width: 650px;
+height: 400px; 
+margin: 2px 20px 20px; 
+padding: 20px; 
+border: 10px dashed #FFEFFF}
+
+nav ul{
+border: 3px solid #7C5295;
+border-right: none;
+border-left: none;
+padding: 15px;
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+list-style-type: none;
+background-color: #FFEFFF;}
+
+nav li{
+display: inline;}
+
+nav a{
+color: color: #7C5295;
+font-size: 20px;
+text-decoration: none;	
+margin-left: 30px;
+padding: 5px;}
+
+a:hover {
+background-color: #BCA0DE}
+a:active {
+background-color: #AC74E1;
+color: #FFEEFF}
+
+#pic {text-align: center;
+font-size: 15px;
+font-style: italic;
+color: #FFEEFF}
+
+#second {
+float: left;
+padding: 20px;
+margin: 30px;
+font-size: 20px;
+border: 5px dashed #AC74E1;
+background-color: #FFEEFF;
+}
+
+#second a {text-decoration: none; padding:5px}
+
+#contact {
+text-align: right;
+margin-right: 2.2em;
+color: #FFEEFF;
+font-weight: bold}
+
+.twt {
+	float: right;
+	background: url('../images/icon.png') no-repeat -139px -102px;
+	width: 47px;
+	height: 44px;}
+.fb {
+	float: right;
+	background: url('../images/icon.png') no-repeat -85px -102px;
+	width: 46px;
+	height: 44px;}
+.ig { 
+	margin-right: 30px;
+	float: right;
+	background: url('../images/icon.png') no-repeat -299px -102px;
+	width: 44px;
+	height: 44px;}
+.twt:hover { 
+	float: right;
+	background: url('../images/icon.png') no-repeat -139px -174px;
+	width: 44px;
+	height: 44px;}
+.fb:hover { 
+	float: right;
+	background: url('../images/icon.png') no-repeat -87px -174px;
+	width: 44px;
+	height: 44px;}
+.ig:hover { 
+	float: right;
+	background: url('../images/icon.png') no-repeat -299px -174px;
+	width: 44px;
+ height: 44px}
