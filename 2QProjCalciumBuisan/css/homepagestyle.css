@@ -6,12 +6,12 @@ text-align: center;
 padding-left: 30px;
 border: 3px solid none;
 padding: 25px;
-margin: 50px;
+margin: 80px 50px 20px;
 background-color: #FFEEFF; }
 
 #links {
 padding: 30px;
-font-size: 15px;
+font-size: 20px;
 border: 10px solid #AC74E1;
 background-color: #FFEEFF;
 margin-left: 100px;
@@ -20,6 +20,7 @@ margin-bottom: 70px;
 margin-top: 80px}
 
 body{ 
+margin: 0;
 font-family: Arial;
 font-size: 20px;
 color: #7C5295;
@@ -52,32 +53,41 @@ margin: 2px 20px 20px;
 padding: 20px; 
 border: 10px dashed #FFEFFF}
 
-nav ul{
-border: 3px solid #7C5295;
-border-right: none;
-border-left: none;
-padding: 15px;
+nav {
+z-index: 1;
 font-family: Arial;
 font-weight: bold;
-text-align: center;
-list-style-type: none;
-background-color: #FFEFFF;}
+background-color: #7C5295;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%}
 
-nav li{
-display: inline;}
-
-nav a{
-color: color: #7C5295;
+nav a {
+color: #FFEFFF;
 font-size: 20px;
 text-decoration: none;	
-margin-left: 30px;
-padding: 5px;}
+float: left;
+display: block;
+text-align: center;
+padding: 14px 16px;}
+
+div a {
+color: color: #7C5295;
+font-size: 20px;
+text-decoration: none;	}
+	
+div ul{
+font-family: Arial;
+background-color: #FFEFFF;}
 
 a:hover {
-background-color: #BCA0DE}
+background-color: #967bb6;
+color: #FFEFFF}
 a:active {
 background-color: #AC74E1;
-color: #FFEEFF}
+color: #FFEEFF;
+transform: rotate(20deg);}
 
 #pic {text-align: center;
 font-size: 15px;

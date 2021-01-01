@@ -6,7 +6,7 @@ text-align: center;
 padding-left: 30px;
 border: 3px solid none;
 padding: 25px;
-margin: 50px;
+margin: 80px 50px 20px;
 background-color: #FFEEFF; }
 
 body{ 
@@ -14,48 +14,93 @@ font-family: Arial;
 font-size: 20px;
 color: #7C5295;
 background-color: #BCA0DE;
+margin: 0
 }
 
 h2 {
+z-index: 2;
+font-size: 0.5in;
 font-family: MV Boli;
 padding: 20px;
 border: 7px double #AC74E1;
+margin: 15px;
 background-color: #FFEEFF;
-text-align: center;}
+text-align: center;
+transform: scale(0.5, 0.7)}
 
-nav ul{
-border: 3px solid #7C5295;
-border-right: none;
-border-left: none;
-padding: 15px;
+
+h3 { letter-spacing: 2px }
+	
+nav {
+z-index: 1;
 font-family: Arial;
 font-weight: bold;
-text-align: center;
-list-style-type: none;
-background-color: #FFEFFF;}
+background-color: #7C5295;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%}
 
-nav li{
-display: inline;}
-
-nav a{
-color: color: #7C5295;
+nav a {
+color: #FFEFFF;
 font-size: 20px;
 text-decoration: none;	
-margin-left: 30px;
-padding: 5px}
-
-a:hover {
-background-color: #BCA0DE}
-a:active {
-background-color: #AC74E1;
-color: #FFEEFF}
-
-article {
-font-family: ;
+float: left;
+display: block;
+text-align: center;
+padding: 14px 16px;}
+	
+#main {
 margin: 30px;
 padding-left: 30px;
 padding-right: 60px;
-padding-top: 30px;
+padding-top: 15px;
+padding-bottom: 30px;
+text-align: justify;
+border: 10px solid #AC74E1;
+background-color: #FFEEFF;
+width: 50%;
+margin-left: auto;
+margin-right: auto}
+
+#help {
+float: left;
+width: 130px;
+height: 130px}
+
+#help:hover { 
+cursor: default;
+transform: rotate(360deg);
+transition: all 1s ease-in-out 0s}
+
+div a {
+color: color: #7C5295;
+font-size: 20px;
+text-decoration: none}
+	
+div ul{
+margin-left: 150px;
+font-family: Calibri}
+
+hr {
+height: 3px;
+color: #AC74E1;
+background-color: #AC74E1}
+
+a:hover {
+background-color: #967bb6;
+color: #FFEFFF}
+a:active {
+background-color: #AC74E1;
+color: #FFEEFF;
+transform: rotate(20deg);}
+
+article {
+font-family: Arial;
+margin: 30px;
+padding-left: 30px;
+padding-right: 60px;
+padding-top: 15px;
 padding-bottom: 30px;
 text-align: justify;
 border: 10px solid #AC74E1;
@@ -72,7 +117,7 @@ background-color: #FFEEFF}
 
 span { font-weight: bold; font-style: italic}
 
-img {width: 550px;
+#who {width: 550px;
 height: 300px; 
 text-align: center;
 display: block;
