@@ -103,7 +103,11 @@ border: 5px dashed #AC74E1;
 background-color: #FFEEFF;
 }
 
-#second a {text-decoration: none; padding:5px}
+#second a {
+text-decoration: none;
+text-transform: uppercase;
+font-family: Agency FB;
+padding:5px }
 
 #contact {
 text-align: right;
