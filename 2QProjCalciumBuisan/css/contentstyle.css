@@ -29,7 +29,10 @@ text-align: center;
 transform: scale(0.5, 0.7)}
 
 
-h3 { letter-spacing: 2px }
+h3 { 
+letter-spacing: 2px;
+text-align: center
+}
 	
 nav {
 z-index: 1;
@@ -66,12 +69,13 @@ margin-right: auto}
 #help {
 float: left;
 width: 130px;
-height: 130px}
+height: 130px;
+transform: translate(1.8in)}
 
 #help:hover { 
-cursor: default;
+
 transform: rotate(360deg);
-transition: all 1s ease-in-out 0s}
+}
 
 div a {
 color: color: #7C5295;
@@ -80,7 +84,8 @@ text-decoration: none}
 	
 div ul{
 margin-left: 150px;
-font-family: Calibri}
+font-family: Calibri;
+transform: translate(2in)}
 
 hr {
 height: 3px;
