@@ -9,14 +9,6 @@ padding: 25px;
 margin: 80px 50px 20px;
 background-color: #FFEEFF; }
 
-body{ 
-font-family: Arial;
-font-size: 20px;
-color: #7C5295;
-background-color: #BCA0DE;
-margin: 0
-}
-
 h2 {
 z-index: 2;
 font-size: 0.5in;
@@ -28,12 +20,24 @@ background-color: #FFEEFF;
 text-align: center;
 transform: scale(0.5, 0.7)}
 
-
 h3 { 
 letter-spacing: 2px;
 text-align: center
 }
-	
+
+h4 {
+font-size: 18px }
+/*header styles above*/
+
+body{ 
+font-family: Arial;
+font-size: 20px;
+color: #7C5295;
+background-color: #BCA0DE;
+margin: 0
+} 
+/* body style above */
+
 nav {
 z-index: 1;
 font-family: Arial;
@@ -52,7 +56,8 @@ float: left;
 display: block;
 text-align: center;
 padding: 14px 16px;}
-	
+/* navigation bar style above */
+
 #main {
 margin: 30px;
 padding-left: 30px;
@@ -65,17 +70,14 @@ background-color: #FFEEFF;
 width: 50%;
 margin-left: auto;
 margin-right: auto}
+/* 5th content page styles above */
 
 #help {
 float: left;
 width: 130px;
 height: 130px;
 transform: translate(1.8in)}
-
-#help:hover { 
-
-transform: rotate(360deg);
-}
+/* 5th content page image styles above */
 
 div a {
 color: color: #7C5295;
@@ -86,11 +88,13 @@ div ul{
 margin-left: 150px;
 font-family: Calibri;
 transform: translate(2in)}
+/* 5th content page styles of diff sections above */
 
 hr {
 height: 3px;
 color: #AC74E1;
 background-color: #AC74E1}
+/*horizontal line style above */
 
 a:hover {
 background-color: #967bb6;
@@ -99,6 +103,7 @@ a:active {
 background-color: #AC74E1;
 color: #FFEEFF;
 transform: rotate(20deg);}
+/* link styles above */
 
 article {
 font-family: Arial;
@@ -110,6 +115,7 @@ padding-bottom: 30px;
 text-align: justify;
 border: 10px solid #AC74E1;
 background-color: #FFEEFF }
+/* main body/content styles above */
 
 iframe {
 width:754px; 
@@ -119,8 +125,10 @@ margin: 10px auto 20px;
 padding: 20px; 
 border: 10px dashed #B57EDC;
 background-color: #FFEEFF}
+/* video/mm files styles above */
 
-span { font-weight: bold; font-style: italic}
+#fin { font-weight: bold; font-style: italic}
+/* span style above */
 
 #who {width: 550px;
 height: 300px; 
@@ -130,17 +138,20 @@ margin-left: auto;
 margin-right: auto; 
 padding: 20px; 
 border: 10px dashed #B57EDC}
+/* pic styles on first content page above */
 
 #pic {
 text-align: center;
 font-size: 15px;
 font-style: italic;}
+/* pic reference styles above */
 
 #vid { 
 text-align: center;
 font-size: 15px;
 font-style: italic;
 color: #FFEEFF}
+/* vid reference styles above */
 
 #content {
 float: left;
@@ -148,19 +159,33 @@ padding: 20px;
 margin: 30px;
 font-size: 20px;
 border: 5px dashed #AC74E1;
-background-color: #FFEEFF;
-}
+background-color: #FFEEFF}
 
 #content a{ text-decoration: none;
 padding: 5px;
 text-transform: uppercase;
 font-family: Agency FB}
+/* button to next page styles above */
 
 #contact {
 text-align: right;
 margin-right: 2.2em;
 color: #FFEEFF;
 font-weight: bold}
+/* contact info styles */
+
+.ref {
+padding: 15px 30px 15px;
+font-size: 15px;
+border: 10px solid #AC74E1;
+background-color: #FFEEFF;
+margin: 65px auto 70px;
+text-align: left;
+width: 50% }
+
+#reftitle {
+font-style: italic;}
+/* all refernece styles above */
 
 .twt {
 	float: right;
@@ -192,6 +217,5 @@ font-weight: bold}
 	float: right;
 	background: url('../images/icon.png') no-repeat -299px -174px;
 	width: 44px;
- height: 44px}
-
-
+	height: 44px}
+/* icons for contact info styles above */

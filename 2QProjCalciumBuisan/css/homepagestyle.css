@@ -6,18 +6,8 @@ text-align: center;
 padding-left: 30px;
 border: 3px solid none;
 padding: 25px;
-margin: 80px 50px 20px;
+margin: 80px 50px 30px;
 background-color: #FFEEFF; }
-
-#links {
-padding: 30px;
-font-size: 20px;
-border: 10px solid #AC74E1;
-background-color: #FFEEFF;
-margin-left: 100px;
-margin-right: 100px;
-margin-bottom: 70px;
-margin-top: 80px}
 
 body{ 
 margin: 0;
@@ -26,32 +16,34 @@ font-size: 20px;
 color: #7C5295;
 background-color: #BCA0DE;
 }
+/* body and header styles */
 
-#desc {
-padding-left: 30px;
-padding-right: 60px;
+#links {
+padding: 30px;
+font-size: 20px;
 border: 10px solid #AC74E1;
 background-color: #FFEEFF;
-margin: 30px;}
+margin: 80px 100px 70px}
+/* styles on links to other issues above */
 
 #conccamp {
-float: right;}
+float: right}
+/* second picture style */
 
-#what {
+.desc {
 margin: 30px;
-padding-left: 30px;
-padding-right: 60px;
-padding-top: 30px;
-padding-bottom: 30px;
+padding: 25px 30px 20px;
 text-align: justify;
 border: 10px solid #AC74E1;
 background-color: #FFEEFF}
+/* main text styles above */
 
-img {width: 650px;
+.pix {width: 650px;
 height: 400px; 
 margin: 2px 20px 20px; 
 padding: 20px; 
 border: 10px dashed #FFEFFF}
+/* picture styles above */
 
 nav {
 z-index: 1;
@@ -71,15 +63,7 @@ float: left;
 display: block;
 text-align: center;
 padding: 14px 16px;}
-
-div a {
-color: color: #7C5295;
-font-size: 20px;
-text-decoration: none;	}
-	
-div ul{
-font-family: Arial;
-background-color: #FFEFFF;}
+/* navigation bar styles above */
 
 a:hover {
 background-color: #967bb6;
@@ -88,11 +72,26 @@ a:active {
 background-color: #AC74E1;
 color: #FFEEFF;
 transform: rotate(20deg);}
+/* all link styles above */
 
 #pic {text-align: center;
 font-size: 15px;
 font-style: italic;
 color: #FFEEFF}
+/* 8 pic reference style */
+
+.ref {
+padding: 15px 30px 15px;
+font-size: 15px;
+border: 10px solid #AC74E1;
+background-color: #FFEEFF;
+margin: 80px auto 70px;
+text-align: left;
+width: 50% }
+
+#reftitle {
+font-style: italic;}
+/* all refernece styles above */
 
 #second {
 float: left;
@@ -108,12 +107,14 @@ text-decoration: none;
 text-transform: uppercase;
 font-family: Agency FB;
 padding:5px }
+/* button to next page style */
 
 #contact {
 text-align: right;
 margin-right: 2.2em;
 color: #FFEEFF;
 font-weight: bold}
+/* contact info styles above */
 
 .twt {
 	float: right;
@@ -145,4 +146,5 @@ font-weight: bold}
 	float: right;
 	background: url('../images/icon.png') no-repeat -299px -174px;
 	width: 44px;
- height: 44px}
+	height: 44px}
+ /* icons on contact info styles above */
